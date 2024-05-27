@@ -29,7 +29,7 @@ with st.sidebar:
     * **Error Handling**: Provide appropriate feedback in case of transcription failures.
 """)
 
-api_key = st.text_input('Enter your AssemblyAI API key', placeholder="ASSEMBLYAI_API_KEY")
+api_key = st.text_input('Enter your AssemblyAI API key', placeholder="ASSEMBLYAI_API_KEY", type="password")
 uploaded_file = st.file_uploader(
     'Choose an audio file', type=['wav', 'mp3', 'm4a'])
 
