@@ -20,19 +20,19 @@ The "Audio to Text Transcription with [AssemblyAI](https://www.assemblyai.com/) 
 
 ## Implementation Steps
 
-### Step 1: Clone the repository
+#### Step 1: Clone the repository
     $ git clone https://github.com/Bhavik-Jikadara/Audio-To-Text.git
     $ cd Audio-To-Text/
 
-### Step 2: Create a virtualenv (windows user)
+#### Step 2: Create a virtualenv (windows user)
     $ pip install virtualenv
     $ virtualenv venv
     $ source venv/Scripts/activate
 
-### Step 3: Install the requirements libraries using pip
+#### Step 3: Install the requirements libraries using pip
     $ pip install -r requirements.txt
 
-### Step 4: Type this command and run the project:
+#### Step 4: Type this command and run the project:
     $ streamlit run streamlit_app.py
 
 ## Follow:
