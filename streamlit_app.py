@@ -30,6 +30,7 @@ with st.sidebar:
 """)
 
 api_key = st.text_input('Enter your AssemblyAI API key', placeholder="ASSEMBLYAI_API_KEY", type="password")
+st.write("Sign Up and Get an API Key: [AssemblyAI API Key](https://www.assemblyai.com/app)")
 uploaded_file = st.file_uploader(
     'Choose an audio file', type=['wav', 'mp3', 'm4a'])
 
